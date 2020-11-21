@@ -1,0 +1,4 @@
+﻿
+namespace ShoppingListUno.Skia.Gtk
+{
+}
