@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShoppingListUno.Shared;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace ShoppingListUno
         public MainPage()
         {
             this.InitializeComponent();
+            DataContext = new MainPageVm();
         }
     }
 }

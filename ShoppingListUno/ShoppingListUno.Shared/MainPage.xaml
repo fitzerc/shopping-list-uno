@@ -8,6 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+        <ListView ItemsSource="{Binding ShoppingList}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>
+
+    
+    
+    
